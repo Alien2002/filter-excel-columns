@@ -113,7 +113,7 @@ export default function ExcelFilter() {
                         className={`inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors ${
                         selectedFields.length === 0 || isDownloading
                             ? "bg-gray-300 text-gray-600 cursor-not-allowed"
-                            : "bg-primary-600 hover:bg-primary-700 text-white"
+                            : "bg-primary-600 hover:bg-primary-700 text-white cursor-pointer"
                         } focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600`}
                     >
                         {isDownloading ? (
